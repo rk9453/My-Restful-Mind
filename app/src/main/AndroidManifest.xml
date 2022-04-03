@@ -24,6 +24,12 @@
         <activity android:name=".TherapistsignupActivity" />
         <activity android:name=".ClienthomeActivity" />
         <activity android:name=".TherapisthomeActivity" />
+        <activity android:name=".surveyOneActivity" />
+        <activity android:name=".surveyTwoActivity" />
+        <activity android:name=".surveyThreeActivity" />
+        <activity android:name=".surveyFourActivity" />
+        <activity android:name=".surveyFiveActivity" />
+
 
         <meta-data
             android:name="preloaded_fonts"

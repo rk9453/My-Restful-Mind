@@ -136,9 +136,9 @@
         android:background="@drawable/button2"
         android:fontFamily="monospace"
         android:text="TAKE ME TO THE SURVEY"
-        android:textStyle="bold"
         android:textColor="@color/baground"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>

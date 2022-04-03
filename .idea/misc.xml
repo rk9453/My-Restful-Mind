@@ -15,6 +15,11 @@
         <entry key="app/src/main/res/layout/activity_clientlogin.xml" value="0.3308731079101563" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2097902097902098" />
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.31774749755859377" />
+        <entry key="app/src/main/res/layout/activity_survey_five.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_survey_four.xml" value="0.14402173913043478" />
+        <entry key="app/src/main/res/layout/activity_survey_one.xml" value="0.16156616210937497" />
+        <entry key="app/src/main/res/layout/activity_survey_three.xml" value="0.14402173913043478" />
+        <entry key="app/src/main/res/layout/activity_survey_two.xml" value="0.14402173913043478" />
         <entry key="app/src/main/res/layout/activity_therapisthome.xml" value="0.26514790852864584" />
         <entry key="app/src/main/res/layout/activity_therapistlogin.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_therapistsignup.xml" value="0.3288113316745623" />
