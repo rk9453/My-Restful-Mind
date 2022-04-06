@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/button.xml" value="0.205" />
+        <entry key="app/src/main/res/drawable/button2.xml" value="0.253" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1665" />
+        <entry key="app/src/main/res/drawable/input.xml" value="0.253" />
+        <entry key="app/src/main/res/layout-w936dp/activity_clienthome.xml" value="0.11640625" />
+        <entry key="app/src/main/res/layout-w936dp/activity_therapisthome.xml" value="0.1014252209272541" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.19902954101562503" />
+        <entry key="app/src/main/res/layout/activity_clientHome.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_clienthome.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_clientlogin.xml" value="0.3308731079101563" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2097902097902098" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.31774749755859377" />
+        <entry key="app/src/main/res/layout/activity_survey_five.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_survey_four.xml" value="0.14402173913043478" />
+        <entry key="app/src/main/res/layout/activity_survey_one.xml" value="0.16156616210937497" />
+        <entry key="app/src/main/res/layout/activity_survey_three.xml" value="0.14402173913043478" />
+        <entry key="app/src/main/res/layout/activity_survey_two.xml" value="0.14402173913043478" />
+        <entry key="app/src/main/res/layout/activity_therapisthome.xml" value="0.26514790852864584" />
+        <entry key="app/src/main/res/layout/activity_therapistlogin.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_therapistsignup.xml" value="0.3288113316745623" />
+        <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.27526156660439316" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
