@@ -14,9 +14,7 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
     private lateinit var btnClient: Button
     private lateinit var btnTherapist: Button
-    private lateinit var imageFacebook: ImageView
-    private lateinit var imageInstagram: ImageView
-    private lateinit var imageAbout: ImageView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -45,11 +43,11 @@ class MainActivity : AppCompatActivity() {
             val openURL = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/myrestfulmind.inc/"))
             startActivity(openURL)
         })
-//        val imageAbout: ImageView = findViewById(R.id.imageAbout)
-//        imageAbout.setOnClickListener(View.OnClickListener {
-//            val abt = Intent(Intent(this@MainActivity, ActivityAbout::class.java))
-//            startActivity(abt)
-//        })
+        val imageAbout: ImageView = findViewById(R.id.imageAbout)
+        imageAbout.setOnClickListener(View.OnClickListener {
+            val abt = Intent(Intent(this@MainActivity, AboutUsActivity::class.java))
+            startActivity(abt)
+        })
 
 
     }

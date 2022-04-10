@@ -8,13 +8,13 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class surveyFourActivity: AppCompatActivity() {
-    private lateinit var btnSurveyNext: Button
+    private lateinit var btnSurveyNext4: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_survey_one)
 
-        btnSurveyNext = findViewById(R.id.btnSurveyNext)
-        btnSurveyNext.setOnClickListener(View.OnClickListener {
+        btnSurveyNext4 = findViewById(R.id.btnSurveyNext4)
+        btnSurveyNext4.setOnClickListener(View.OnClickListener {
             val registerIntent = Intent(this@surveyFourActivity, surveyFiveActivity::class.java)
             startActivity(registerIntent)
         })

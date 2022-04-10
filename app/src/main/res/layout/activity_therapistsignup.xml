@@ -9,22 +9,22 @@
 
     <LinearLayout
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="72dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="270dp"
         android:layout_marginEnd="58dp"
         android:layout_marginRight="58dp"
-        android:layout_marginBottom="153dp"
+        android:layout_marginBottom="145dp"
         android:layout_weight="1"
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/etPhoneNumber"
+            android:id="@+id/etFirstName"
             android:layout_width="255dp"
             android:layout_height="55dp"
             android:layout_marginEnd="175dp"
@@ -34,10 +34,10 @@
 
         <Space
             android:layout_width="0dp"
-            android:layout_height="15dp"></Space>
+            android:layout_height="8dp"></Space>
 
         <EditText
-            android:id="@+id/etFirstName"
+            android:id="@+id/etLastName"
             android:layout_width="255dp"
             android:layout_height="55dp"
             android:layout_marginEnd="175dp"
@@ -47,10 +47,10 @@
 
         <Space
             android:layout_width="0dp"
-            android:layout_height="15dp"></Space>
+            android:layout_height="8dp"></Space>
 
         <EditText
-            android:id="@+id/etPassword"
+            android:id="@+id/etPhoneNumber"
             android:layout_width="255dp"
             android:layout_height="55dp"
             android:layout_marginEnd="175dp"
@@ -60,16 +60,29 @@
 
         <Space
             android:layout_width="0dp"
-            android:layout_height="15dp"></Space>
+            android:layout_height="8dp"></Space>
 
         <EditText
-            android:id="@+id/etLastName"
+            android:id="@+id/etEmail"
             android:layout_width="255dp"
             android:layout_height="55dp"
             android:layout_marginEnd="175dp"
             android:layout_marginRight="175dp"
             android:background="@drawable/input"
             android:hint="Email Address" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="8dp"></Space>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="255dp"
+            android:layout_height="53dp"
+            android:layout_marginEnd="175dp"
+            android:layout_marginRight="175dp"
+            android:background="@drawable/input"
+            android:hint="Password" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -89,26 +102,29 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="119dp"
-        android:layout_marginTop="238dp"
-        android:layout_marginEnd="111dp"
-        android:layout_marginBottom="416dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="460dp"
         android:fontFamily="monospace"
-        android:text="APPLY"
+        android:text="APPLY NOW"
         android:textColor="@color/baground"
-        android:textSize="40sp"
-        android:textStyle="bold" />
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
 
     <Button
         android:id="@+id/btnSignup"
         android:layout_width="161dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="112dp"
-        android:layout_marginRight="112dp"
-        android:layout_marginBottom="79dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="70dp"
         android:background="@drawable/button2"
         android:fontFamily="monospace"
         android:text="SUBMIT"
@@ -122,9 +138,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="126dp"
-        android:layout_marginRight="126dp"
-        android:layout_marginBottom="130dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="121dp"
+        android:layout_marginBottom="125dp"
         android:fontFamily="monospace"
         android:text="Already have an account? "
         android:textColor="@color/baground"
@@ -139,7 +155,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="75dp"
         android:layout_marginRight="75dp"
-        android:layout_marginBottom="128dp"
+        android:layout_marginBottom="125dp"
         android:fontFamily="monospace"
         android:text="LOGIN"
         android:textColor="@android:color/holo_blue_light"

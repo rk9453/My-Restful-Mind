@@ -29,6 +29,9 @@
         <activity android:name=".surveyThreeActivity" />
         <activity android:name=".surveyFourActivity" />
         <activity android:name=".surveyFiveActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".FaqsActivity" />
+        <activity android:name=".TermsActivity" />
 
 
         <meta-data

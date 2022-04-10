@@ -149,7 +149,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/btnSurveyNext"
+        android:id="@+id/btnSurveyNext4"
         android:layout_width="150sp"
         android:layout_height="80sp"
         android:background="@drawable/button"
