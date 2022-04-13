@@ -1,0 +1,133 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myrestfulmind"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:5:5-41:19
+12        android:allowBackup="true"
+12-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\DELL\.gradle\caches\transforms-3\5569570771428b265868d1805759cc49\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.MyRestfulMind" >
+20-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:11:9-51
+21        <activity
+21-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:12:9-20:20
+22            android:name="com.example.myrestfulmind.MainActivity"
+22-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:13:13-41
+23            android:exported="true" >
+23-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:14:13-36
+24            <intent-filter>
+24-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:16:17-69
+25-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:18:17-77
+27-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity android:name="com.example.myrestfulmind.ClientloginActivity" />
+30-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:21:9-57
+30-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:21:19-54
+31        <activity android:name="com.example.myrestfulmind.TherapistloginActivity" />
+31-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:22:9-60
+31-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:22:19-57
+32        <activity android:name="com.example.myrestfulmind.SignupActivity" />
+32-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:23:9-52
+32-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:23:19-49
+33        <activity android:name="com.example.myrestfulmind.TherapistsignupActivity" />
+33-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:24:9-61
+33-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:24:19-58
+34        <activity android:name="com.example.myrestfulmind.ClienthomeActivity" />
+34-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:25:9-56
+34-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:25:19-53
+35        <activity android:name="com.example.myrestfulmind.TherapisthomeActivity" />
+35-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:26:9-59
+35-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:26:19-56
+36        <activity android:name="com.example.myrestfulmind.surveyOneActivity" />
+36-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:27:9-55
+36-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:27:19-52
+37        <activity android:name="com.example.myrestfulmind.surveyTwoActivity" />
+37-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:28:9-55
+37-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:28:19-52
+38        <activity android:name="com.example.myrestfulmind.surveyThreeActivity" />
+38-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:29:9-57
+38-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:29:19-54
+39        <activity android:name="com.example.myrestfulmind.surveyFourActivity" />
+39-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:30:9-56
+39-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:30:19-53
+40        <activity android:name="com.example.myrestfulmind.surveyFiveActivity" />
+40-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:31:9-56
+40-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:31:19-53
+41        <activity android:name="com.example.myrestfulmind.AboutUsActivity" />
+41-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:32:9-53
+41-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:32:19-50
+42        <activity android:name="com.example.myrestfulmind.FaqsActivity" />
+42-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:33:9-50
+42-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:33:19-47
+43        <activity android:name="com.example.myrestfulmind.TermsActivity" />
+43-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:34:9-51
+43-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:34:19-48
+44        <activity android:name="com.example.myrestfulmind.CalenderActivity" />
+44-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:35:9-54
+44-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:35:19-51
+45
+46        <meta-data
+46-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:38:9-40:57
+47            android:name="preloaded_fonts"
+47-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:39:13-43
+48            android:resource="@array/preloaded_fonts" />
+48-->C:\Users\DELL\Documents\GitHub\My-Restful-Mind\app\src\main\AndroidManifest.xml:40:13-54
+49
+50        <service
+50-->[androidx.room:room-runtime:2.4.2] C:\Users\DELL\.gradle\caches\transforms-3\f609c099f8e8ba3ed4669e044d315016\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+51            android:name="androidx.room.MultiInstanceInvalidationService"
+51-->[androidx.room:room-runtime:2.4.2] C:\Users\DELL\.gradle\caches\transforms-3\f609c099f8e8ba3ed4669e044d315016\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+52            android:directBootAware="true"
+52-->[androidx.room:room-runtime:2.4.2] C:\Users\DELL\.gradle\caches\transforms-3\f609c099f8e8ba3ed4669e044d315016\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+53            android:exported="false" />
+53-->[androidx.room:room-runtime:2.4.2] C:\Users\DELL\.gradle\caches\transforms-3\f609c099f8e8ba3ed4669e044d315016\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+57            android:authorities="com.example.myrestfulmind.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c1b31467da5823b7297c035c7f672194\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c1b31467da5823b7297c035c7f672194\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c1b31467da5823b7297c035c7f672194\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+65        </provider>
+66    </application>
+67
+68</manifest>

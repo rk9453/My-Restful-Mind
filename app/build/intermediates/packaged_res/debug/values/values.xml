@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
+        </item>
+    </string-array>
+    <array name="preloaded_fonts" translatable="false">
+    </array>
+    <color name="baground">#E9F6F3</color>
+    <color name="bagroundDark">#4C8F8E</color>
+    <color name="black">#FF000000</color>
+    <color name="green">#4CC985</color>
+    <color name="olive">#E9F6F3</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <string name="aboutHasan">
+        I never realized the importance of mental health until my first year at the University of Waterloo, when I met my roommate who happened to suffer from separation anxiety. Due to long wait times at counselling services, he never got the help he needed and eventually dropped out of university.
+        \n\n
+        This created a lasting impact on me and I developed an urge to learn more about mental health issues and how to cope with them effectively. Within the next couple of years, I started My Restful Mind with the hope to provide efficient and budget-friendly online therapy for students.
+    </string>
+    <string name="about_us_para">
+        In our traditionalist society, stigma and lack of access to supportive resources have prevented the majority of those suffering to get the help they deserve.
+        \n\n
+        <b>This has changed with the Launch of My Restful Mind’s Wellness Services!</b>
+        \n\n
+        We are promoting integrative wellness services to ensure a healthy start in life for students to prevent mental health disorders later in their adulthood. My Restful Mind has introduced wellness programs in private schools and institutions, making mental health and fitness resources more accessible and affordable.
+        \n\n
+        <b>Our Features:</b>
+        \n\n
+        We have a culturally diverse100% female-led panel who specializes in different areas of intellectual and emotional health providing evidence-based therapy.
+        \n\n
+        Other Key Services Include:
+        \n\n
+        Yoga Classes and Meditation
+        \n\n
+        Nutrition and Fitness Coaching
+        \n\n
+        Family and Couple Counselling
+        \n\n
+        Academic Support and
+        \n\n
+        Career Coaching
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">MyRestfulMind</string>
+    <string name="faqs">
+        <b>What is counseling? Is it for me?</b>
+        \n\n
+        One of the four global citizens faces mental health issues. Counselling helps them to deal with their problems, motivates them to make healthier changes in their lifestyle and teaches them how to cope with stressful and emotionally challenging situations in life.
+        \n\n
+        My Restful Mind’s therapy services will help you if you are facing any of the following issues:
+        \n\n
+        Exam stress
+        Insomnia
+        Relationship troubles
+        Addiction and substance use
+        Suicidal ideation and depression
+        Gender and sexuality issues
+        Anger management and anxiety
+        PTSD
+        Life coaching
+        Life transitions
+        Medical detox
+        \n\n
+        By talking to one of our trained psychologists and certified professionals you can prevent the seemingly small issues from transitioning into bigger problems. Counseling or therapy is not necessary only for mental illnesses, it can be used by you to generally talk about your life and whatever is happening in it with a certified professional without the fear of being judged.
+        \n\n\n
+        <b>How will I get to know if therapy is working or not?</b>
+        \n\n
+        My Restful Mind’s therapy services are entirely focused on the client’s needs – a discussion, a call out for help or an encounter to better the client’s well-being either physically or mentally.
+        \n\n
+        The advice given to you will result in a positive change in your life indicating that therapy is indeed working. It is important to note that every now and then you will reveal sentiments that indicate how you feel, and this is all part and parcel of the entire procedure
+        \n\n\n
+        <b>How long do I need to take therapy before it shows results?</b>
+        \n\n
+        It depends on a multitude of factors from the plan you choose, to the approach of your therapist, how compliant you are towards healing and therapy, your cooperation and home environment, and many other factors that vary with each client and hence there is no standard prognosis or results showing in a certain time. However, the average CBT ranges from 6 months – 1 year.
+        \n\n\n
+        <b>How is video therapy different from face to face therapy?</b>
+        \n\n
+        Studies have suggested that video guiding is in fact more compelling and powerful than one to one conversation. Plus, it can be done on the go without any time constraints.
+        \n\n
+        However, it is also essential to note that advising is based entirely on individuals and each advice may vary from person to person. Some people may find video counselling more effective than others.
+        \n\n\n
+        <b>Can my therapy session be recorded?</b>
+        \n\n
+        No, your therapy sessions cannot be recorded by the therapist as Doxy.me is a secure platform that does not allow for the sessions to be recorded. Moreover, therapists are legally obligated to not disclose the discussions that take place during therapy.
+        \n\n\n
+        <b>As a minor, do I need consent from my parents to take therapy?</b>
+        \n\n
+        A minor is a child below the age of 16. If you are registering from your institution, then the rules that your institution has set in place will be applicable. However, if you are registering personally then yes you will need the consent of your parents.
+        \n\n\n
+        <b>How many therapists do you have onboard and what are their qualifications?</b>
+        \n\n
+        Currently, My Restful Mind has a team of 6 esteemed therapists who are trained psychologists with work experience of 100+ hours each under supervision in a clinical setting.
+        \n\n
+        All of our psychologists are screened by the company following international guidelines and standards.
+        \n\n
+        The pre-requisite qualification for a practicing psychologist is Masters in Clinical Psychology or related field.
+        \n\n
+        All of our therapists have completed their MSc. or a MPhil program in good standing from a HEC Recognized university in Pakistan or internationally.
+        \n\n\n
+        <b>Are they available 24 hours?</b>
+        \n\n
+        Our online video therapy sessions are available within 12 hours (9 am – 9 pm), you are also able to schedule a same-day booking. Flexible hours for our therapists mean flexible hours for you, from morning to night, and even on weekends.
+        \n\n\n
+        <b>What is the difference between Peer Support and Therapy?</b>
+        \n\n
+        The main difference between them is that Therapy is offered by a certified therapist while Peer Support is offered by a psychologist who is currently in training.
+        \n\n\n
+        <b>How can I make a payment?</b>
+        \n\n
+        In Pakistan, we use secure payment gateways from Easy Paisa and Jazz Cash. You can also make the payment via bank deposit. The transaction should be completed before the start of the session.
+        \n\n\n
+        <b>How can I get the refund?</b>
+        \n\n
+        Any refunds applicable will be returned with transaction costs and applicable taxes back into your bank account given to the company.
+        \n\n
+        Refund requests can be submitted via email at support@myrestfulmind.com.
+        \n\n\n
+        <b>How do I cancel or delay a session?</b>
+        \n\n
+        You can write an email directly to the therapist informing them of canceling or delaying the session with a proper reason and the exact timings of the appointment
+    </string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="linktosite">
+        <a href="https://myrestfulmind.org">myrestfulmind.org</a>
+    </string>
+    <string name="terms">
+        <b>Updated: 24 September, 2019</b>
+        \n\n
+        Welcome to My Restful Mind Inc. (“My Restful Mind”, “We”, “Us”, or “our” as context dictates).
+        \n\n
+        In order for you to use, access, or register to use our services or obtain any assistance from us you must agree to abide by the terms and conditions listed below (the “Terms of Use”) as well as those listed under our Privacy Policy which is incorporated by reference (these Terms of Service, along with the Privacy Policy and other policies we may add from time to time shall be referred to as the “Terms”). The Terms govern all the Services we provide and all content, communication, platform and products, including but not limited to the Services provided through www.myrestfulmind.com (the “Website” and collectively, the “Services”). These Terms apply to casual visitors and registered users.
+        \n\n
+        By accessing, browsing or using the Website, you become a “Visitor”. In order to access certain aspects of the Website and specific Services, you will have to create an account and register to become a “Member”. Visitors and Members are collectively referred to as “Users”.  As a User, it is important that you read our Terms carefully as they contain important information about use, rights, liability, your obligations and matters related to disputes.
+        \n\n
+        If you do not wish to abide by the Terms, then do not use or access our Services. Your use of our Services signifies that you agree to the Terms.
+        \n\n
+        If you do not agree to the Terms, do not access or otherwise use our Services. If you have any questions about our Terms, you may contact us at support@myrestfulmind.com.
+        \n\n
+        <b>1.  Understanding the Role of Each Party:</b>
+        \n\n
+        (a)  My Restful Mind is only responsible for providing the Services. We provide services in our own personal or corporate capacities, and not as employees, agents, or representatives of a User. My Restful Mind will be responsible to support Users on specific issues as set out in Section 4 (My Restful Mind Support).
+        \n\n
+        (b)  My Restful Mind has no role and assumes no liability with respect to any User act or omission.
+        \n\n
+        (c)  If you are using the Website on behalf of an organization, you agree to the Terms on behalf of that organization, and represent you have authority to bind that organization to the terms contained herein.
+        \n\n
+        (d)  Even though we are not a party to transactions between Users and assume no liability for legal or regulatory compliance pertaining to services Users obtain or provide through the  Website, there may be circumstances where we are nevertheless legally obligated (as we may determine in our sole discretion) to provide information relating to a User or Services in order to comply with requests from governmental bodies in relation to investigations, litigation or administrative proceedings, and we may choose to comply with such obligations in our sole discretion
+        \n\n
+        <b>2.  Your Account</b>
+        \n\n
+        (a)  Registration and Account Set-up. In order to utilize certain Services offered on the Website, you must register and create an account.
+        \n\n
+        (b)  Credentials Management and Incidents. You will: (1) keep your Credentials strictly confidential and secure; (2) only share your Credentials with those who are authorized to represent you and execute actions on your behalf, but please ensure such person abides by the Terms; and (3) inform us immediately if the confidentiality of any part of your Credentials has been compromised (e.g. you or someone you authorized has shared your Credentials with a third party or you believe there is a credible chance of the security of your account being compromised).
+        \n\n
+        (c)  Suspicious Activity. If we suspect any unauthorized access to your Account or that there is suspicious activity in relation to your Account, we retain the right, but do not have the obligation, to suspend your Account and take any other related action as we deem reasonable, and you agree to assist in executing such actions, which may involve your resetting of passwords or taking other measures as may be required.
+        \n\n
+        (d)   Cancellation of Accounts.  As a Member, you may decide at any time to cancel your Account by sending a cancellation request to support@myrestfulmind.com. Please note that we reserve the right to suspend, and if deemed appropriate, cancel your Account.
+        \n\n
+        (e)   Effect of Cancellation. Upon cancellation of an Account, the Account and all related information shall be deleted in its entirety, unless otherwise specified under our Privacy Policy.
+        \n\n
+        <b>3.  Fees and Payment.</b>
+        \n\n
+        (a)  Fees Payable by Members. Pricing is determined on a case-by-case basis. From each payment from a Member (a “Transaction”), the applicable fee set out in your account will be retained and the remainder will be remitted to you via e-mail money transfer or such other methods as we may elect to use based on the account information you provide to us. You are responsible for, and agree to pay promptly, all applicable taxes on amounts we pay to you.
+        \n\n
+        (b)  Refunds. Any refunds applicable will be returned with transaction costs and applicable taxes.
+        \n\n
+        (c)  Fee Changes. We may in the future implement a new fee, or modify an existing fee, for certain, current or future services provided through our Website. If we revise our fees, we will notify you by sending you an email.
+        \n\n
+        <b>4.  Assistance from My Restful Mind</b>
+        \n\n
+        (a)  You may submit questions by contacting us at support@myrestfulmind.com.
+        \n\n
+        <b>5.  Insurance</b>
+        \n\n
+        USERS AGREE THAT THEY DO NOT EXPECT MY RESTFUL MIND OR ANY OF ITS AFFILIATES OR ANY SUCH ENTITY’S AGENTS, OFFICERS AND DIRECTORS TO PROVIDE INSURANCE IN REGARDS TO THE WEBSITE AND EACH PARTY ACKNOWLEDGES THAT IT DOES NOT RELY ON THE INSURANCE OF ANY OTHER PARTY.
+        \n\n
+        <b>6.  Handling of Your Information</b>
+        \n\n
+        (a)  You agree that all information or data on the Website or processed through the Website may be, without further required consent by you, handled by a third-party for either:
+        \n\n
+        (1)  the third party’s own legitimate business purposes;
+        \n\n
+        (2)  purposes which serve our business purposes, including transaction processing and data monitoring or storage; or
+        \n\n
+        (3)  for regulatory or other reasons which are imposed on us, in Canada, or in any other jurisdiction we provide services.
+        \n\n
+        (b)  Your information may be subject to third party data management and privacy policies in the event such third parties are utilized by us or by you  (e.g. for purposes of payment of fees).
+        \n\n
+        \n\n
+        <b>7.  Representations, Warranties and Covenants.</b>
+        \n\n
+        (a)  You acknowledge and agree that as a User :
+        \n\n
+        (1)  you have the authority to bind yourself, or such other party which you may be representing, to the Terms;
+        \n\n
+        (2)  your use of the Website will be solely for purposes that are permitted by the Terms;
+        \n\n
+        (3)  your use of the Website will not infringe or misappropriate the intellectual property rights of any third party; and
+        \n\n
+        (4)  your use of the Website, as applicable, will comply with all Laws and with all applicable My Restful Mind policies.
+        \n\n
+        (b)  If you are using the Website on behalf of an organization, you agree to the Terms on behalf of that organization, and represent you have authority to bind that organization to the terms contained herein.
+        \n\n
+        (c)  Conduct Restrictions.  You covenant that as a User, you will not:
+        \n\n
+        (1)  share your Account log-in details with any person other than those expressly authorized by you;
+        \n\n
+        (2)  contact any User for a purpose other than what this Website is meant for;
+        \n\n
+        (3)  make use of the Website or the tools and services on the Website to do anything other than to carry out activities which are normally related to activities conducted on the Website;
+        \n\n
+        (4)  reverse engineer, de-compile, disassemble or otherwise attempt to discover the source code or underlying ideas or algorithms in the Website;
+        \n\n
+        (5)  damage, disable, overburden or impair our servers or network, or interfere with any other party’s use and enjoyment of the Website;
+        \n\n
+        (6)  copy, or make derivative work from, any part of the Website in any medium, including use of a frame or border environment around the Website, or other framing technique to enclose any portion or aspect of the website, using any device including using spiders, data mining, robots,  or similar data gathering means;
+        \n\n
+        (7)  access the Website in order to build a commercially available product or service which competes with the Website;
+        \n\n
+        (8)  copy any features, functions, integrations, interfaces or graphics which are part of the Website;
+        \n\n
+        (9)  violate any Laws;
+        \n\n
+        (10)  make statements on any part of the Website on any topic, particularly regarding other Users, Content and the Website, which could reasonably be considered false or misleading;
+        \n\n
+        (11)  willfully tamper with the security of the Website, including attempting to probe, scan or test the vulnerability of the Website or to breach the security or authentication measures;
+        \n\n
+        (12)  share any sensitive data  with us which, in the normal course of events, would demand special Handling and introduce a security burden on My Restful Mind that is not agreed upon by us in writing in advance of receipt of such data;
+        \n\n
+        (13)  transmit any information, through the Website or to Users in any other manner, which may: (1) be unlawful, threatening, abusive, libelous, defamatory, ; (2) refute or is contrary to what is set out anywhere in the Website; 3) is considered “spam” (including machine or randomly-generated, constitutes unauthorized or unsolicited advertising, chain letters, any other form of unauthorized solicitation or any form of lottery or gambling); (4) contains or installs any viruses, worms, malware, Trojan horses or other content that is designed or intended to disrupt, damage or limit the function of any software, hardware or telecommunications equipment or to damage or obtain unauthorized access to any data or other information of any third party; and (5) violates the privacy of any third party;  and
+        \n\n
+        (14)  attempt to gain unauthorized access to the Website or our computer systems or networks through hacking, password mining or any other means.
+        \n\n
+        (d)  We reserve the right to investigate and prosecute, to the fullest extent of the law, any violation of the above. Our actions against you, upon suspicion or confirmation of a violation of the above, may also include suspension or termination of your Account, removal or suspension of your Content; and issuance of a warning to Users about any relevant information about you to the extent permissible under applicable law.
+        \n\n
+        <b>8.  Right to Terminate Accounts</b>
+        \n\n
+        We reserve the right, but not the obligation to, determine, solely at our discretion, whether any User violates the Terms and at our choosing, suspend, terminate or deny access to a Member Account, with or without prior notice.
+        \n\n
+        <b>9.  Intellectual Property Rights</b>
+        \n\n
+        (a)  We retain ownership of all intellectual property rights of any kind related to the Website, including applicable copyrights, patents, trademarks and other proprietary rights. Except as set out herein, the Terms do not transfer any intellectual property between parties.  We reserve all rights that are not expressly granted under the Terms.
+        \n\n
+        (b)  All content and information on the Website are protected by copyright as a collective work and/or compilation under applicable Laws. These marks may not be copied, downloaded, reproduced, used, modified or distributed in any way without our prior written permission by the applicable party.
+        \n\n
+        <b>10.  Permission for Communication</b>
+        \n\n
+        We use email and other electronic means to stay in touch with Users. You agree that when you provide us your e-mail address or personally identifying information (e.g. name, address) during or prior to access of the Website or use of any other service or tool provided through or on the Website, you: (1) consent to receive communications from us, our Affiliates, and applicable Users in electronic formats, including via the email address you have submitted, SMS messages to your telephone, or other agreed upon contact methods (if applicable); (2) can opt-out from receiving communication from any such party at any time by completing the formalities on the Website, but we do not take on any liability for any communication of another party to you, particularly if you have provided your contact information to them independently rather than using the communication functions of the Website; and (3) agree that the Terms, agreements, notices, disclosures and other communications that we provide you electronically satisfy any legal requirement that such communications would satisfy if they were in writing and physically presented to you.
+        \n\n
+        <b>11.  Term and Termination</b>
+        \n\n
+        (a)  The Terms, and any payment obligations, will deemed to be applicable to you upon your use of the Website and will terminate only upon an actual deletion or deactivation of your Account through the means provided on the Website. Abandonment or non-use of the Account will not lead to an automatic termination of your Account.
+        \n\n
+        (b)  With respect to all Users, My Restful Mind may terminate your access to all or any part of the Website at any time, with our without cause and with or without notice, effective immediately and for any reason deemed appropriate in our sole discretion.
+        \n\n
+        (c)  Except for the provisions set out in Section 32 (Surviving Provisions) the Terms will no longer be applicable to you if your Account is cancelled or terminated.
+        \n\n
+        (d)  Upon termination of your Account, (1) all rights, licenses, consents and authorizations granted pursuant to the Terms will immediately terminate and any Content which is provided by a User under the Terms will be no longer accessible by other Users; (2) we may disable all User access to services on the Website; and (3) we will permanently erase all User Data, provided that, for clarity, such obligation does not apply to any Aggregate Data.
+        \n\n
+        (e)  Notwithstanding anything to the contrary in the Terms, with respect to information and materials then in our possession or control, we may retain User Data in our backups, archives and disaster recovery systems until such User Data is deleted in the ordinary course.
+        \n\n
+        <b>12.  Medical Advice</b>
+        \n\n
+        The information you receive from the Website is for informational and scheduling purposes only. The information provided on the Website is not intended as a replacement for professional medical advice, diagnosis or treatment. Do not use the website for emergency health needs. If you rely on any of the information provided by the Website, you so solely at your own risk.
+        \n\n
+        <b>13.  Disclaimer of Warranties</b>
+        \n\n
+        IN ADDITION TO ANY OTHER DISCLAIMERS SET OUT IN THE TERMS, THE SERVICES PROVIDED, INCLUDING ALL CONTENT ON, FUNCTION OF, AND TRANSACTIONS CONDUCTED OVER, THE WEBSITE ARE “AS IS” WITHOUT ANY REPRESENTATIONS OR WARRANTIES OF ANY KIND MADE BY US.  TO THE FULLEST EXTENT OF THE LAW, WE DO NOT REPRESENT THAT ANY INFORMATION EXCHANGED BETWEEN A PARTY UNDER THE TERMS IS SECURE, EVEN IF WE BECOME AWARE OF ANY, OR ARE TOLD ABOUT, A POTENTIAL BREACH. FURTHER, WE EXPRESSLY DISCLAIM ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, RELIABILITY OR ACCURACY.  WE DO NOT WARRANT THAT THE WEBSITE OR THE FUNCTIONS THEREIN WILL BE UNINTERRUPTED OR ERROR FREE, OR THAT THE WEBSITE OR ANY ITEM CONNECTED WITH THE SERVER IS FREE OF VIRUSES OR ANY HARMFUL COMPONENTS.  ANY TRANSMISSION TO AND FROM THIS WEBSITE, COMMUNICATION BETWEEN THE PARTIES OR ANY COMMENTS MADE BY YOU, ARE NOT CONFIDENTIAL.  YOU AGREE THAT YOUR USE OF THIS WEBSITE CREATES NO OBLIGATION UPON US AND THERE IS NO RELATIONSHIP (WHETHER CONTRACTUAL, FIDUCIARY OR OTHERWISE) CREATED BETWEEN YOU AND US OTHER THAN PURSUANT TO THE TERMS.
+        \n\n
+        <b>14.  Limitation of Liability</b>
+        \n\n
+        We will not be liable for any damages or losses arising from your use of the Website or arising under the Terms. To the maximum extent permitted by applicable law, in no event will My Restful Mind be liable to you for any loss of profits, interruption to business, harm to reputation, misuse of data, or for any incidental, direct, indirect, special, consequential or exemplary damages, however arising and whether or not My Restful Mind has been informed of the possibility of such damage, even if a remedy set forth in the Terms is found to have failed of its essential purpose.
+        \n\n
+        We will also have no liability for any failure or delay, including the failure of any integrated or ancillary third-party service used in conjunction with the Website or for any failure of a third party to keep safe any transactional information or other personal information of a User.
+        \n\n
+        We are not responsible for any disruptions to service or breaches in security or privacy that may result from your use of wireless networks when using the Website. If you are accessing the Website through the use of wireless technology and/or from a mobile device, you agree that you are responsible for ensuring the security of the wireless connection.
+        \n\n
+        <b>15.  Release and Indemnification</b>
+        \n\n
+        (a)  Users agree to indemnify and hold harmless My Restful Mind, its officers, directors, employees, agents, successors and permitted assigns from and against any and all claims and expenses, including legal fees and disbursements, arising out of any use of the Website (including content posted by you or use of a social media website or app in connection with Content on the Website) by you, including a User’s violations of any of the provisions in the Terms or any other terms as agreed upon between Users; improper Handling of User Data;  allegation of facts that, if true, would constitute User’s breach of any of its representations, warranties, covenants or obligations under the Terms; or negligence or willful misconduct by User or any third party on behalf of User in connection with the Terms.
+        \n\n
+        (b)  In the event of any dispute between you and any other User in connection with the Website, you agree to grant My Restful Mind and its officers, employees, directors, and agents and related entities a release from all claims, causes of action, demands and damages (actual and consequential) of every kind and nature whatsoever, known and unknown, arising out of or in any way connected with such dispute now or at any time in the future.
+        \n\n
+        (c)   We may, at our sole discretion and expense, choose to assume the exclusive defense and control of any matter otherwise subject to indemnification by you and you shall not in any event settle any matter without our written consent.
+        \n\n
+        <b>16.  Modification of Terms</b>
+        \n\n
+        (a)  My Restful Mind reserves the right, at our sole discretion, to amend the Terms at any time and will update the Terms in the event of any such amendments.
+        \n\n
+        (b)  If the Terms are modified in a way we consider significant, we will post the amended Terms on the Website. Although we will take reasonable steps to notify you of such significant changes made, you are expected to check the Terms periodically for any amendments.  Your continued use of the Website following such notification shall constitute your affirmative acknowledgement of the Terms, the modification and agreement to abide and be bound by the Terms, as amended. If at any time you choose not to accept the Terms, including following receipt of notification of any modifications made hereto, then please do not use the Website and as applicable, terminate your Account.
+        \n\n
+        <b>17.  Governing Law</b>
+        \n\n
+        The Terms and any access to or use of the Website shall be governed by, and construed in accordance with the internal laws of the Province of Ontario and the federal laws of Canada, without giving effect to any choice or conflict of law provision or rule (whether of the Province of Ontario or any other jurisdiction) that would cause the application of the laws of any jurisdiction other than those of the province of Ontario.
+        \n\n
+        <b>18.  Arbitration</b>
+        \n\n
+        If any claim, dispute or controversy occurring amongst Users or between a User and us, in relation to the Terms or services provided pursuant to the Terms, cannot be resolved within a commercially reasonable timeframe, the dispute may be referred to arbitration pursuant to the International Commercial Arbitration Act (R.S.O. 1990, c. I-9) (Ontario). There shall be one arbitrator selected in accordance with the Rules. The parties to the dispute shall equally share the fees of the arbitrator and the facility fees and such parties shall each bear their own legal costs and expenses of the arbitration; provided, that the arbitrator shall have the authority to award such fees, costs and expenses in the decision of the arbitrator. The arbitration shall be conducted in English. Notwithstanding the foregoing, each disputing party shall have the right to seek injunctive or other equitable relief that may be related to the breach of confidentiality obligations or violation of the intellectual property rights set forth in the Terms.
+        \n\n
+        <b>19.  Waiver of Class Proceedings</b>
+        \n\n
+        Users hereby waive any right they may have to commence or participate in any class action lawsuit against My Restful Mind related to any claim, dispute or controversy and, where applicable, Users hereby agree to opt out of any class proceeding against My Restful Mind otherwise commenced.
+        \n\n
+        <b>20.  Severability</b>
+        \n\n
+        If any portion or provision of the Terms shall to any extent be declared illegal or unenforceable by a court of competent jurisdiction, then the remainder of the Terms, or the application of such portion of provision in circumstances other than those as to which it is so declared illegal or unenforceable, shall not be affected thereby, and each portion and provision of the Terms shall be valid and enforceable to the fullest extent permitted by law.
+        \n\n
+        <b>21.  No Assignment</b>
+        \n\n
+        (a)  We may assign or delegate the Terms, including the Terms of Use and/or our Privacy Policy, in whole or in part, to any person or entity at any time with or without your consent and without prior notice to you.
+        \n\n
+        (b)  Users may not assign or delegate any rights or obligations under the Terms without our prior written consent and any unauthorized assignment and delegation by you is void.
+        \n\n
+        <b>22.  Headings and Summaries</b>
+        \n\n
+        The headings, captions and summaries in the Terms are for convenience only and in no way define or describe the scope or content of any provision of the Terms.
+        \n\n
+        <b>23.  Notices</b>
+        \n\n
+        Except as otherwise stated in the Terms or as expressly required by law, any notice to us shall be given in writing by certified postal mail to: X , Attention: Y  (support@myrestfulmind.com). Any notice to you shall be given to the most current email address in your Account.
+        \n\n
+        <b>24.  Other Rules of Interpretation</b>
+        \n\n
+        Any reference to gender includes all genders; words importing the singular number only shall include the plural and vice versa; the word “or” is not exclusive; and the words “including”, “includes” and “include” mean “including without limitation”.
+        \n\n
+        <b>25.  No Waiver of Covenants</b>
+        \n\n
+        Failure by any party to insist upon the strict performance of any of the covenants, agreements, terms, provisions or conditions contained in the Terms or to exercise any election shall not be construed as a waiver or relinquishment of such covenant, agreement, term, provision or condition but the same shall continue and remain in full force. No waiver shall be deemed to have been made unless expressed in writing.
+        \n\n
+        <b>26.  Severance</b>
+        \n\n
+        If any provision of this Agreement is found to be invalid by a court of competent jurisdiction, the other provisions of the Terms will remain in full force and effect.
+        \n\n
+        <b>27.  Violations</b>
+        \n\n
+        Please report any violations of the Terms by a User or a third party by sending an email to help@myrestfulmind.com.
+        \n\n
+        <b>28.  Surviving Provisions</b>
+        \n\n
+        Only the following provisions of these Terms of Use will survive following any termination or expiration: X .
+        \n\n
+        <b>29.  Entire Agreement</b>
+        \n\n
+        The Terms, in combination with all policies and guidelines of the Website (including the Privacy Policy), incorporated by reference, constitute the entire agreement between you and My Restful Mind and supersede all prior communications, agreements and understandings, written or oral, with respect to the subject matter of the Terms.
+
+    </string>
+    <string name="title_activity_about">ActivityAbout</string>
+    <style name="Theme.MyRestfulMind" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.MyRestfulMind.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.MyRestfulMind.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.MyRestfulMind.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>
