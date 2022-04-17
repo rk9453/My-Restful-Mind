@@ -4,8 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/SE/aman/app/src/main/res/layout/activity_aboutus.xml" value="0.2644927536231884" />
+        <entry key="..\:/SE/aman/app/src/main/res/layout/activity_clienthome.xml" value="0.275" />
         <entry key="..\:/SE/aman/app/src/main/res/layout/activity_faqs.xml" value="0.2644927536231884" />
+        <entry key="..\:/SE/aman/app/src/main/res/layout/activity_main.xml" value="0.275" />
+        <entry key="..\:/SE/aman/app/src/main/res/layout/activity_signup.xml" value="0.275" />
         <entry key="..\:/SE/aman/app/src/main/res/layout/activity_terms.xml" value="0.2644927536231884" />
+        <entry key="..\:/SE/aman/app/src/main/res/layout/schedule_app.xml" value="0.264" />
       </map>
     </option>
   </component>
