@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/olive">
+
+
+    <TextView
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="546dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="VIEW SCHEDULED APPOINTMENT"
+
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:textColor="@color/bagroundDark"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="262dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="175dp"
+        android:layout_marginBottom="217dp"
+        android:background="@drawable/input"
+        android:backgroundTint="@color/bagroundDark"
+        android:hint="                        TIME"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Space
+            android:layout_width="0dp"
+            android:layout_height="15dp"></Space>
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="258dp"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="83dp"
+        android:layout_marginRight="175dp"
+        android:layout_marginBottom="314dp"
+        android:background="@drawable/input"
+        android:backgroundTint="@color/bagroundDark"
+        android:hint="                      DATE"
+        android:textColorHint="@color/white" />
+
+    <Space
+            android:layout_width="0dp"
+            android:layout_height="15dp"></Space>
+
+    <ImageView
+        android:id="@+id/imageBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="264dp"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="175dp"
+        android:layout_marginBottom="417dp"
+        android:background="@drawable/input"
+        android:backgroundTint="@color/bagroundDark"
+        android:hint="             Therapist Name"
+        android:textColorHint="@color/white" />
+
+    <Space
+            android:layout_width="0dp"
+            android:layout_height="15dp"></Space>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+  
+
+
+
+
+
+
+</RelativeLayout>
