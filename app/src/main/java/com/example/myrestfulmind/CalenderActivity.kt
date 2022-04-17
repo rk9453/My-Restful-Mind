@@ -1,6 +1,5 @@
 package com.example.myrestfulmind
 
-<<<<<<< Updated upstream
 import android.app.DatePickerDialog
 import android.os.Bundle
 import android.widget.Button
@@ -13,8 +12,8 @@ class CalenderActivity: AppCompatActivity() {
 
     private lateinit var pickDateBtn: Button
     private lateinit var dateTv: TextView
-    override fun onCreate (savedInstanceState: Bundle?) {
-        super.onCreate (savedInstanceState)
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_calender)
 
         //Calendar
@@ -27,20 +26,19 @@ class CalenderActivity: AppCompatActivity() {
         val pickDateBtn: Button = findViewById(R.id.pickDateBtn)
         val dateTv: TextView = findViewById(R.id.pickDateBtn)
         pickDateBtn.setOnClickListener {
-            val dpd = DatePickerDialog (this, DatePickerDialog.OnDateSetListener{view, mYear, mMonth, mDay ->
-                // set to textView
-                dateTv.setText(""+ mDay +"/"+ mMonth +"/"+ mYear)
-            }, year, month, day)
+            val dpd = DatePickerDialog(this,
+                DatePickerDialog.OnDateSetListener { view, mYear, mMonth, mDay ->
+                    // set to textView
+                    dateTv.setText("" + mDay + "/" + mMonth + "/" + mYear)
+                },
+                year,
+                month,
+                day
+            )
             // show dialog
             //hello
             dpd.show()
         }
 
     }
-
-
-
-=======
-class CalenderActivity {
->>>>>>> Stashed changes
 }
