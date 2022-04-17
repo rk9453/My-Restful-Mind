@@ -1,5 +1,6 @@
 package com.example.myrestfulmind
 
+<<<<<<< Updated upstream
 import android.app.DatePickerDialog
 import android.os.Bundle
 import android.widget.Button
@@ -39,4 +40,7 @@ class CalenderActivity: AppCompatActivity() {
 
 
 
+=======
+class CalenderActivity {
+>>>>>>> Stashed changes
 }
